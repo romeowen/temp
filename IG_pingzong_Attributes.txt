@@ -1,0 +1,112 @@
+romeo
+@attribute	click_stream.ad_id					C
+@attribute	click_stream.adpos_id					C
+@attribute	click_stream.target_type					L
+@attribute	click_stream.creative_id					C
+@attribute	click_stream.adx_app_id					C
+@attribute	click_stream.connection_type					C
+@attribute	user_info.user_age					ND	9
+@attribute	user_info.user_gender					C
+@attribute	user_info.qq_recent_province_id					C
+@attribute	user_info.qq_age					ND	2
+@attribute	user_info.qq_month_log_days					ND	5
+@attribute	user_info.qq_grade					C
+@attribute	user_info.qq_month_msg_send					ND	8
+@attribute	user_info.qq_group_join					ND	8
+@attribute	user_info.qq_month_log_hours					ND	8
+@attribute	user_info.recent_place_dm					C
+@attribute	user_info.qq_friends_count					ND	8
+@attribute	user_info.city_type					C
+@attribute	ad_info.adpos_size_id					C
+@attribute	ad_info.title					C
+@attribute	ad_info.ad_product_id					C
+@attribute	ad_info.advertiser_id					C
+@attribute	ad_info.class1_id					C
+@attribute	ad_info.class3_id					C
+@attribute	ad_info.product_type					C
+@attribute	ad_info.ad_3_level_category.first_category					C
+@attribute	ad_info.ad_3_level_category.second_category					C
+@attribute	ad_info.ad_3_level_category.third_category					C
+@attribute	ad_info.image_text_feature					C
+@attribute	ad_cluster.class_id					C
+@attribute	ad_img_cluster.ad_img_group_id					C
+@attribute	adpos_active.click					C
+@attribute	adpos_active.view					C
+@attribute	user_behavior.yixun_click					C
+@attribute	user_behavior.app_click					C
+@attribute	user_behavior.paipai_click					C
+@attribute	user_tag					C
+@attribute	ad_tag					C
+@attribute	ad_cat_click.click					C
+@attribute	ad_cat_click.view					C
+@attribute	adpos_info.adpos_siteset					C
+@attribute	adpos_info.adpos_possize					C
+@attribute	adpos_info.adpos_linktype					C
+@attribute	adpos_info.adpos_crtsize					C
+@attribute	adpos_info.adpos_placement_type					C
+@attribute	in_feeds_active.click					C
+@attribute	in_feeds_active.view					C
+@attribute	device_info.carrier					C
+@attribute	device_info.conn					C
+@attribute	device_info.c_os					C
+@attribute	device_info.c_devicetype					C
+@attribute	device_info.c_h					C
+@attribute	device_info.c_w					C
+@attribute	device_info.c_ori					C
+@attribute	device_info.muid_type					C
+@attribute	offline_user_interest_v1					C
+@attribute	offline_user_interest_v2					C
+@attribute	offline_ad_class					C
+@attribute	rtb_external_info.pos_id					C
+@attribute	rtb_external_info.vertical					C
+@attribute	rtb_external_info.site_id					C
+@attribute	wechat_info.user_age					ND	9
+@attribute	wechat_info.user_gender					C
+@attribute	wechat_info.device_type					C
+@attribute	wechat_info.device_os					C
+@attribute	wechat_info.device_carrier					C
+@attribute	wechat_info.device_conn					C
+@attribute	wechat_info.app_id					C
+@attribute	wechat_info.app_msg_id					C
+@attribute	wechat_info.item_idx					C
+@attribute	wechat_info.app_text_semantic_topic					C
+@attribute	wechat_info.app_text_semantic_tag					C
+@attribute	wechat_info.page_text_semantic_topic					C
+@attribute	wechat_info.page_text_semantic_tag					C
+@attribute	user_group.is_single					C
+@attribute	user_group.is_bringup					C
+@attribute	user_group.is_newlymarried					C
+@attribute	user_group.is_highconsumer					C
+@attribute	user_group.is_lowconsumer					C
+@attribute	user_group.is_pay					C
+@attribute	user_group.is_travel					C
+@attribute	user_group.education					C
+@attribute	user_group.is_married					C
+@attribute	user_group.is_inlove					C
+@attribute	wechat_app_interest					C
+@attribute	wechat_app_interest_wuid					C
+@attribute	wx_biz_tag					C
+@attribute	wechat_user_profile.user_age					ND	9
+@attribute	wechat_user_profile.user_gender					C
+@attribute	wechat_user_profile.profile_type					C
+@attribute	wechat_user_profile.province					C
+@attribute	wechat_user_profile.weixin_contact_count					ND	8
+@attribute	offline_user_interest_v3					C
+@attribute	offline_user_interest_v4					C
+@attribute	gdt_app_user_interest					C
+@attribute	medium_info.medium_id					C
+@attribute	medium_info.industry_id					C
+@attribute	imei_user_info.user_age					ND	9
+@attribute	imei_user_info.user_gender					C
+@attribute	wechat_app_new_interest_wuid					C
+@attribute	weixin_interest_public_account					C
+@attribute	user_tid_active.click					C
+@attribute	user_tid_active.view					C
+@attribute	wx_interest_ecc_url					C
+@attribute	wx_pub_app_tag_v3					C
+@attribute	wuid_adpos_active.click					C
+@attribute	wuid_adpos_active.view					C
+@attribute	user_interest_add					C
+@attribute	app_user_new_interest					C
+
+@relation	raw_features_used_by_reed
